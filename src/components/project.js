@@ -1,28 +1,23 @@
 const projectsData = [
     {
         id:1,
-        name: "Foodie",
-        techStack:'Flutter | Firebase',
-        githubUrl:'https://github.com/Raghav-2104/Foodie'
+        name: "Social Cap",
+        techStack:'MERN',
+        githubUrl:'https://github.com/Pranathi1314/SocialCap'
     },
     {
         id:2,
-        name: "Smart Printer",
-        techStack:'Flutter | Firebase | NodeJS',
-        githubUrl:'https://github.com/devanganaB/smart_printer'
+        name: "Shrine Connect",
+        techStack:'HTML | CSS | NodeJS | Express| MongoDB',
+        githubUrl:'https://github.com/swarnikasingh/shrineconnect'
     },
     {
         id:3,
-        name: "Expense Tracker",
-        techStack:'Flutter | Hive',
-        githubUrl:'https://github.com/Raghav-2104/expense_tracker_flutter',
+        name: "VESIT Event Management",
+        techStack:'Tkinter | MySQL',
+        githubUrl:'https://github.com/ShantanuSaraf30/Vesit-Event-Management',
     },
-    {
-        id:4,   
-        name: "Expense Tracker",
-        techStack:'Python | SQLite3',
-        githubUrl:'https://github.com/Raghav-2104/Expense-Tacker',
-    },
+   
 ];
 
 export default projectsData;

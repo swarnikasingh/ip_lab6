@@ -51,13 +51,13 @@ const Internship = styled.p`
 `;
 const Profile = () => {
     const profileData = {
-        name: 'Raghav Mundhara',
-        bio: 'Student | Flutter Developer | Quick Learner ',
+        name: 'Swarnika Singh',
+        bio: 'Student | Full Stack Developer | Enthusiastic Learner ',
         edu: 'B.E Information Technology',
         clg: 'Vivekanand Education Society Institute of Technology',
-        cgpa: '8.95',
-        imgUrl: 'https://avatars.githubusercontent.com/u/56132780?v=4',
-        intern: 'Intern at CodeClause (App Developer)',
+        cgpa: '8.6',
+        imgUrl: 'https://images.unsplash.com/photo-1575936123452-b67c3203c357?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        
     };
 
     return (
@@ -70,8 +70,7 @@ const Profile = () => {
             <ProfileText>{profileData.edu}</ProfileText>
             <ProfileText>CGPA: {profileData.cgpa}</ProfileText>
             <ProfileText>{profileData.clg}</ProfileText>
-            <ProfileSubHeader>Internship</ProfileSubHeader>
-            <Internship>{profileData.intern}</Internship>
+            
         </ProfileContainer>
     );
 };

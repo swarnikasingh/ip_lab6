@@ -4,7 +4,7 @@ import './header.css';
 export default function Header() {
     return (
         <header>
-            <h1>Raghav Mundhara</h1>
+            <h1>Swarnika Singh</h1>
             <nav>
                 <ul>
                     <li>
